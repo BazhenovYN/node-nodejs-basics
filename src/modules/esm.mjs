@@ -1,7 +1,7 @@
-import { readFile } from 'fs/promises';
-import { createServer as createServerHttp } from 'http';
-import { release, version } from 'os';
-import path from 'path';
+import { readFile } from 'node:fs/promises';
+import { createServer as createServerHttp } from 'node:http';
+import { release, version } from 'node:os';
+import path from 'node:path';
 
 import './files/c.js';
 
